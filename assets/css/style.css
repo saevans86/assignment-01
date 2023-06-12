@@ -2,28 +2,32 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6;    
 }
 .header {
     background-color: #2a607c;
     color: #ffffff;
-    padding: 25px;
-    /* added padding to keep header same ratio as origin due to removing span*/
+    padding: 20px;
+    font-size: 19px;
+    /* added padding to to keep header block about the same as origin */
 }
 .header h1 {
-    margin-left: 25px;
+    margin-left: auto;
     display: inline-block;
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*removed header h1 .seo  due to removing span in html*/
 }
-a, li, .header nav {
-    padding-top: 7.5px;
+.header h1 .seo {
+    color: #d9dcd6;
+    }
+a, .header nav, li {
     color: #ffffff;
+    padding-top: 6px;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
     float:right;  
     list-style-type: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
@@ -34,6 +38,8 @@ a, li, .header nav {
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
+    background-position: center;
+    /*I left the BG image in CSS when I read that CSS images should be used for decorating purposes without context*/
 }
 .benefits {
     margin-right: 20px;
