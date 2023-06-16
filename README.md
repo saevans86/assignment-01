@@ -11,12 +11,15 @@ n/a
 
 ## Usage
 
+https://saevans86.github.io/assignment-01/
+
 ![see screenshot](assets/images/screenshot.png)
 
 
 ## Credits
 
 Credits to origin author under https://github.com/coding-boot-camp/urban-octo-telegram.git
+see assets > original code > develop > (assets\original-code/urban-octo-telegram-main)
 
 ## License
 
